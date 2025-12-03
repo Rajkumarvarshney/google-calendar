@@ -120,7 +120,7 @@ npm run dev
 
 ---
 
-# 🔮 Future Scope (ONLY the 3 you asked)
+# Future Scope 
 
 ##  Smart Alert & Reminder Notifications**
 Add intelligent notifications:
@@ -156,10 +156,7 @@ Integrate AI using OpenAI API to:
 - Suggest buffer/travel time for meetings  
 
 
- License
-This project is for educational and learning use.
-
-
+# Some images of my User interface
 
 <img width="1413" height="795" alt="Screenshot 2025-12-03 at 6 25 39 PM" src="https://github.com/user-attachments/assets/dfa58b0d-9b55-4aba-9d31-94a9de8eb3a2" />
 <img width="1440" height="804" alt="Screenshot 2025-12-03 at 6 25 13 PM" src="https://github.com/user-attachments/assets/eac23cad-fbb1-4748-af43-714521d63a60" />
