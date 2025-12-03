@@ -1,0 +1,49 @@
+/* Mini Calendar container */
+.mini-calendar {
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.mc-header {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.mc-weekdays,
+.mc-week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.mc-weekday {
+  text-align: center;
+  font-size: 12px;
+  padding: 4px 0;
+  color: #777;
+}
+
+.mc-day {
+  text-align: center;
+  padding: 6px 0;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 3px;
+  font-size: 14px;
+}
+
+.mc-day:hover {
+  background: #e6f0ff;
+}
+
+.mc-other {
+  color: #aaa;
+}
+
+.mc-selected {
+  background: #1a73e8 !important;
+  color: white;
+}

@@ -1,0 +1,38 @@
+.notes-container {
+    padding: 15px;
+  }
+  
+  .notes-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .notes-input {
+    width: 100%;
+    height: 70px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .notes-add-btn {
+    margin-top: 10px;
+    width: 100%;
+    background: #fbbc04;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .notes-list {
+    margin-top: 15px;
+  }
+  
+  .note-item {
+    background: #fff8c6;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+  }
+  

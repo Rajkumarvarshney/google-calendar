@@ -1,0 +1,113 @@
+.gc-nav {
+  height: 64px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Left side */
+.gc-left {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.gc-icon {
+  font-size: 22px;
+  color: #5f6368;
+  cursor: pointer;
+}
+
+.gc-logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.gc-logo img {
+  height: 32px;
+}
+
+.gc-logo span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.today-btn {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1px solid #dadce0;
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.today-btn:hover {
+  background: #f1f3f4;
+}
+
+.arrow-box {
+  display: flex;
+  gap: 6px;
+}
+
+.chevron {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.gc-date {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Right side */
+.gc-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.view-select {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid #dadce0;
+  background: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.gc-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #1a73e8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.create-btn {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 24px;
+  margin-right: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.create-btn:hover {
+  background: #1558b0;
+}

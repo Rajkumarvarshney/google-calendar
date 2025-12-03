@@ -1,0 +1,24 @@
+.apps-bar {
+  position: fixed;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  z-index: 5000;
+}
+
+.apps-bar img,
+.apps-bar svg {
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.apps-bar img:hover,
+.apps-bar svg:hover {
+  transform: scale(1.12);
+}

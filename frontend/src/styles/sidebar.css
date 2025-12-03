@@ -1,0 +1,139 @@
+/* ========================================================= */
+/* SIDEBAR OPEN / CLOSE BEHAVIOR (MAIN SYSTEM) */
+/* ========================================================= */
+
+.sidebar-container {
+  width: 290px;
+  min-width: 290px;
+  padding: 20px;
+  background: #f7f7f7;
+  height: 100vh;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+
+  position: relative;
+  z-index: 20;
+
+  /* animation */
+  transition: transform 0.28s ease, opacity 0.25s ease;
+}
+
+/* Sidebar Hidden (Menu Click) */
+.sidebar-container.closed {
+  transform: translateX(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Sidebar Visible */
+.sidebar-container.open {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ========================================================= */
+/* MAIN SIDEBAR INTERNALS */
+/* ========================================================= */
+
+.sidebar-section {
+  margin-bottom: 20px;
+}
+
+.sidebar-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #3c4043;
+}
+
+/* Search pill */
+.people-pill {
+  padding: 12px;
+  border-radius: 12px;
+  background: #e9eef6;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #3c4043;
+}
+
+/* Booking row */
+.sidebar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3c4043;
+}
+
+/* Plus button for booking */
+.plus-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid #dadce0;
+  background: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* ========================================================= */
+/* CALENDAR ITEM LIST */
+/* ========================================================= */
+
+.calendar-list .cal-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+}
+
+.cal-item input {
+  width: 16px;
+  height: 16px;
+}
+
+.cal-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+}
+
+.cal-label {
+  font-size: 14px;
+  color: #3c4043;
+  flex: 1;
+}
+
+/* three dots (options) */
+.calendar-options-btn {
+  font-size: 18px;
+  color: #5f6368;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.calendar-options-btn:hover {
+  background: #f1f3f4;
+}
+
+/* ========================================================= */
+/* FOOTER */
+/* ========================================================= */
+
+.sidebar-footer {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #5f6368;
+  font-size: 12px;
+}

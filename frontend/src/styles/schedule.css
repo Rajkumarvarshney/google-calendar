@@ -1,0 +1,129 @@
+.schedule-container {
+  padding: 0 24px 40px 24px;
+  font-family: sans-serif;
+  background: #fff;
+  height: calc(100vh - 90px);
+  overflow-y: scroll;
+}
+
+/* Each day section */
+.schedule-day-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 16px 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Left date column */
+.schedule-date {
+  width: 80px;
+  text-align: center;
+  color: #5f6368;
+}
+
+.schedule-date-day {
+  font-size: 22px;
+  font-weight: 500;
+  color: #202124;
+}
+
+.schedule-date-label {
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-top: -2px;
+  letter-spacing: .4px;
+}
+
+/* Right events column */
+.schedule-events {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-item {
+  position: relative;
+}
+
+/* Flat row, no card look */
+.schedule-item-main {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: transparent;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+/* Remove bottom divider for the last item in the day */
+.schedule-item:last-child .schedule-item-main {
+  border-bottom: none;
+}
+
+.schedule-item-main:hover {
+  background: #f8f9fa;
+}
+
+.schedule-dot {
+  width: 10px;
+  height: 10px;
+  background: #34a853;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* All day pill */
+.schedule-time {
+  color: #3c4043;
+  font-size: 12px;
+  min-width: 64px;
+  padding: 2px 8px;
+  background: #f1f3f4;
+  border-radius: 999px;
+  text-align: center;
+}
+
+.schedule-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #202124;
+}
+
+/* DETAIL CARD */
+.schedule-detail-card {
+  position: absolute;
+  left: 300px;
+  top: 0;
+  width: 350px;
+  background: #f8fafd;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 24px rgba(0,0,0,0.15);
+}
+
+.schedule-detail-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #202124;
+}
+
+.schedule-detail-date {
+  color: #5f6368;
+  margin-top: 4px;
+}
+
+.schedule-detail-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.schedule-detail-row .dot {
+  width: 10px;
+  height: 10px;
+  background: #34a853;
+  border-radius: 50%;
+}

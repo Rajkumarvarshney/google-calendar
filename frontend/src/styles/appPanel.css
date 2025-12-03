@@ -1,0 +1,43 @@
+.app-panel {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 340px;
+  height: 100vh;
+  background: #fff;
+  border-left: 1px solid #ddd;
+  box-shadow: -4px 0px 12px rgba(0, 0, 0, 0.1);
+  animation: slideLeft 0.2s ease;
+  z-index: 1000;
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(350px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.close-btn {
+  font-size: 26px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.app-body {
+  padding: 20px;
+  color: #555;
+}
+
+

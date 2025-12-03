@@ -1,0 +1,108 @@
+.weekview-container {
+  height: calc(100vh - 90px);
+  overflow-y: scroll;
+  background: #fff;
+  border-radius: 16px;
+  position: relative;
+}
+
+/* HEADER */
+.weekview-header {
+  display: grid;
+  grid-template-columns: 70px repeat(7, 1fr);
+  align-items: center;
+  height: 90px;
+}
+
+.weekview-header-col {
+  text-align: center;
+}
+
+.weekview-day-name {
+  font-size: 13px;
+  color: #5f6368;
+  margin-bottom: 4px;
+}
+
+.today-text {
+  color: #1a73e8;
+}
+
+.weekview-day-number {
+  width: 34px;
+  height: 34px;
+  margin: 0 auto;
+  line-height: 34px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.weekview-day-number:hover {
+  background: #e8f0fe;
+}
+
+.today-circle {
+  background: #1a73e8;
+  color: white;
+}
+
+/* GRID */
+.weekview-grid {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+}
+
+.weekview-time-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.weekview-time-cell {
+  height: 120px;
+  font-size: 12px;
+  color: #5f6368;
+  padding-left: 8px;
+}
+
+.weekview-days {
+  display: grid;
+  grid-template-columns: repeat(7, 150px);
+}
+
+.weekview-day-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.weekview-cell {
+  height: 120px;
+  border-top: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.weekview-cell:hover {
+  background: #f8fafd;
+}
+
+/* CURRENT TIME LINE */
+.week-current-time {
+  position: absolute;
+  height: 2px;
+  background: #ea4335;
+  width: 150px;
+  z-index: 10;
+}
+
+.week-current-time .circle {
+  width: 10px;
+  height: 10px;
+  background: #ea4335;
+  border-radius: 50%;
+  position: absolute;
+  left: -5px;
+  top: -4px;
+}
+

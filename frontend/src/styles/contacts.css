@@ -1,0 +1,39 @@
+.contacts-container {
+    padding: 15px;
+  }
+  
+  .contacts-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .contact-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    margin-top: 8px;
+    border-radius: 6px;
+  }
+  
+  .contact-add-btn {
+    margin-top: 10px;
+    width: 100%;
+    background: #1a73e8;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .contacts-list {
+    margin-top: 15px;
+  }
+  
+  .contact-item {
+    background: #f1f3f4;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+  }
+  

@@ -1,0 +1,87 @@
+/* Floating color menu */
+.color-menu {
+    position: fixed;          /* FIXED so it does NOT stay inside the row */
+    top: 0;
+    left: 0;
+    transform: translate(var(--x), var(--y));
+    width: 220px;
+    background: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 12px;
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.1),
+        0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 8px 0;
+    z-index: 9999999;         /* ENSURE on TOP */
+    animation: fadeIn 0.12s ease-out;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translate(var(--x), calc(var(--y) - 5px)); }
+    to   { opacity: 1; transform: translate(var(--x), var(--y)); }
+}
+
+/* Top options */
+.menu-section.top-options {
+    padding: 8px 0;
+}
+
+.menu-option {
+    padding: 10px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #3c4043;
+}
+
+.menu-option:hover {
+    background: #f1f3f4;
+}
+
+.menu-divider {
+    height: 1px;
+    background: #e8eaed;
+    margin: 6px 0;
+}
+
+/* Color selection grid */
+.color-grid {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.color-dot {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.1s ease;
+}
+
+.color-dot:hover {
+    transform: scale(1.12);
+}
+
+.color-check {
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.add-color {
+    background: #f1f3f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5f6368;
+}
+
+.add-color:hover {
+    background: #e8eaed;
+}
