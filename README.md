@@ -3,7 +3,7 @@
 A full-stack Google Calendar clone built using the MERN stack.  
 It supports event creation, editing, deleting, recurring events, conflict detection, drag interactions, and clean UI animations — closely replicating Google Calendar behavior.
 
----
+
 
 ## Features
 
@@ -30,7 +30,7 @@ It supports event creation, editing, deleting, recurring events, conflict detect
 - Search bar for events  
 - Filters for categories (work/personal/etc.)
 
----
+
 
 ##  Project Architecture
 
@@ -56,9 +56,8 @@ It supports event creation, editing, deleting, recurring events, conflict detect
 - Recurring pattern schema  
 - Indexes for faster querying  
 
----
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the repository
 ```bash
@@ -99,22 +98,21 @@ npm run dev
 npm run dev
 ```
 
----
 
-## 📘 Business Logic Highlights
+##  Business Logic Highlights
 
-### ✔ Recurring Events
+###  Recurring Events
 - Daily, weekly, monthly repeats  
 - Compute next occurrences  
 - Stops after end date  
 - Avoids duplicate instances  
 
-### ✔ Event Conflict Handling
+###  Event Conflict Handling
 - Checks if new event overlaps existing ones  
 - If conflict: prompts user  
 - If allowed: stores both  
 
-### ✔ Animations & Interactions
+###  Animations & Interactions
 - Smooth event drag  
 - Resize animation  
 - Calendar transitions  
@@ -124,7 +122,7 @@ npm run dev
 
 # 🔮 Future Scope (ONLY the 3 you asked)
 
-## ✅ **1. Smart Alert & Reminder Notifications**
+##  Smart Alert & Reminder Notifications**
 Add intelligent notifications:
 - Browser push alerts  
 - Email reminders  
@@ -133,8 +131,8 @@ Add intelligent notifications:
 
 Useful for reminding users of meetings, deadlines, or important events.
 
----
-Automated Birthday Messages (Auto Email/Wish System)**
+
+## Automated Birthday Messages (Auto Email/Wish System)**
 Add a birthday automation engine:
 - User stores friends’ birthdays  
 - System auto-detects birthday at midnight  
@@ -150,8 +148,7 @@ cron.schedule("0 0 * * *", () => {
 });
 ```
 
-
-3. AI-Based Smart Event Suggestions**
+## AI-Based Smart Event Suggestions**
 Integrate AI using OpenAI API to:
 - Suggest best time slots  
 - Detect conflicts and provide alternatives  
@@ -164,3 +161,5 @@ This project is for educational and learning use.
 
 
 
+<img width="1413" height="795" alt="Screenshot 2025-12-03 at 6 25 39 PM" src="https://github.com/user-attachments/assets/dfa58b0d-9b55-4aba-9d31-94a9de8eb3a2" />
+<img width="1440" height="804" alt="Screenshot 2025-12-03 at 6 25 13 PM" src="https://github.com/user-attachments/assets/eac23cad-fbb1-4748-af43-714521d63a60" />
