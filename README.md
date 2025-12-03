@@ -118,11 +118,11 @@ npm run dev
 - Calendar transitions  
 - Hover + click ripple effects  
 
----
+
 
 # Future Scope 
 
-##  Smart Alert & Reminder Notifications**
+##  Smart Alert & Reminder Notifications
 Add intelligent notifications:
 - Browser push alerts  
 - Email reminders  
@@ -132,7 +132,7 @@ Add intelligent notifications:
 Useful for reminding users of meetings, deadlines, or important events.
 
 
-## Automated Birthday Messages (Auto Email/Wish System)**
+## Automated Birthday Messages (Auto Email/Wish System)
 Add a birthday automation engine:
 - User stores friends’ birthdays  
 - System auto-detects birthday at midnight  
@@ -140,21 +140,6 @@ Add a birthday automation engine:
   - Email birthday wishes  
   - Optional WhatsApp message  
 - Optional: yearly recurring birthday events  
-
-Uses cron jobs like:
-```js
-cron.schedule("0 0 * * *", () => {
-    // birthday automation here
-});
-```
-
-## AI-Based Smart Event Suggestions**
-Integrate AI using OpenAI API to:
-- Suggest best time slots  
-- Detect conflicts and provide alternatives  
-- Auto-generate event descriptions  
-- Suggest buffer/travel time for meetings  
-
 
 # Some images of my User interface
 
